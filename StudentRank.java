@@ -11,7 +11,7 @@ int temp=marks[i];
 marks[i]=marks[j];
 marks[j]=temp;
 String tempnames=names[i];
-names[i]=names[j];bbc
+names[i]=names[j];
 names[j]=tempnames;
 }
 }
@@ -37,4 +37,5 @@ System.out.println("Rank "+(i+1)+": "+names[i]+"-"+marks[i]);
         }
 
 }
+
 }
